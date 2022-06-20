@@ -11,6 +11,9 @@ const Navbar = () => {
         <Link to="/about">
           <NavbarItems>About</NavbarItems>
         </Link>
+        <Link to="/codeNation">
+          <NavbarItems>Code Nation</NavbarItems>
+        </Link>
       </NavbarContainer>
     </div>
   );
