@@ -1,6 +1,8 @@
 import { useState } from "react";
 // import { evaluate } from "mathjs";
+import { Description } from "../css/App.styled";
 import {
+  DisplayNum,
   TheCalculator,
   CalcBox,
   NumButtons,
@@ -41,30 +43,30 @@ const Calculator = () => {
     calculate(display);
   };
   return (
-    <TheCalculator>
-      {/* <h1>Calculator</h1> */}
-      <h1 className="display" data-testid="display">
-        {input}
-      </h1>
-      <CalcBox>
-        {numButtons.map((aButton) => (
-          <NumButtons onClick={handleClick} key={aButton}>
-            {aButton}
-          </NumButtons>
-        ))}
-      </CalcBox>
-      <CalcBox>
-        {operatorButtons.map((aButton) => (
-          <OppButtons
-            className="oppButtons"
-            onClick={handleClick}
-            key={aButton}
-          >
-            {aButton}
-          </OppButtons>
-        ))}
-      </CalcBox>
-    </TheCalculator>
+    <div>
+      <Description>Calculator</Description>
+      <TheCalculator>
+        {/* <h1>Calculator</h1> */}
+        <DisplayNum>{input}</DisplayNum>
+        <CalcBox>
+          {numButtons.map((aButton) => (
+            <NumButtons onClick={handleClick} key={aButton}>
+              {aButton}
+            </NumButtons>
+          ))}
+  
+          {operatorButtons.map((aButton) => (
+            <OppButtons
+              className="oppButtons"
+              onClick={handleClick}
+              key={aButton}
+            >
+              {aButton}
+            </OppButtons>
+          ))}
+        </CalcBox>
+      </TheCalculator>
+    </div>
   );
 };
 

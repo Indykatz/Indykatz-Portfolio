@@ -1,15 +1,19 @@
 import styled from "styled-components";
 
+export const DisplayNum = styled.div`
+  color: #2a5a97;
+  font-size: 300%;
+  margin: auto;
+  min-height: 60px;
+`;
+
 export const TheCalculator = styled.div`
-  border: 1px solid #f49446;
   justify-content: center;
 `;
 
-
-
 export const CalcBox = styled.div`
-  border: 1px solid #f49446;
-  width: auto;
+  /* border: 1px solid #f49446; */
+  width: 250px;
   height: auto;
   padding: 5px;
   margin-left: auto;
@@ -48,4 +52,5 @@ export const OppButtons = styled.div`
   cursor: pointer;
   font-weight: bold;
   font-size: large;
+  flex-grow: 1;
 `;

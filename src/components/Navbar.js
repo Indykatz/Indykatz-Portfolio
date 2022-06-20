@@ -8,11 +8,14 @@ const Navbar = () => {
         <Link to="/">
           <NavbarItems>Home</NavbarItems>
         </Link>
-        <Link to="/about">
+        <Link to="/About">
           <NavbarItems>About</NavbarItems>
         </Link>
-        <Link to="/codeNation">
+        <Link to="/CodeNation">
           <NavbarItems>Code Nation</NavbarItems>
+        </Link>
+        <Link to="/Calculator">
+          <NavbarItems>Calculator</NavbarItems>
         </Link>
       </NavbarContainer>
     </div>

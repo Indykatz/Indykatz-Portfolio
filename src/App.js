@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import CodeNation from "./pages/CodeNation";
-
+import Calculator from "./pages/Calculator";
 const App = () => {
   return (
     <TheApp>
@@ -18,6 +18,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/CodeNation" element={<CodeNation />} />
+            <Route path="/Calculator" element={<Calculator />} />
           </Routes>
         </Content>
         <FooterBanner />

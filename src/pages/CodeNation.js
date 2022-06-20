@@ -1,5 +1,4 @@
-import Calculator from "../cn-components/Calculator";
-import Counter from "../cn-components/Counter";
+import Counter from "../components/Counter";
 import { Description, FlexBox, EachBox } from "../css/App.styled";
 
 const CodeNation = () => {
@@ -12,7 +11,7 @@ const CodeNation = () => {
             <Counter />
           </EachBox>
           <EachBox>
-            <Calculator />
+            <Counter />
           </EachBox>
         </FlexBox>
       </div>
