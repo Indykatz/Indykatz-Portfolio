@@ -1,11 +1,20 @@
-import Counter from "../components/Counter";
+import Calculator from "../cn-components/Calculator";
+import Counter from "../cn-components/Counter";
+import { Description, FlexBox, EachBox } from "../css/App.styled";
 
 const CodeNation = () => {
   return (
     <div>
       <div>
-        <h1>Code Nation</h1>
-        <Counter />
+        <Description>Code Nation ReactJS</Description>
+        <FlexBox>
+          <EachBox>
+            <Counter />
+          </EachBox>
+          <EachBox>
+            <Calculator />
+          </EachBox>
+        </FlexBox>
       </div>
     </div>
   );

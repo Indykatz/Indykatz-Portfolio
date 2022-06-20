@@ -1,10 +1,9 @@
-
+import { Description } from "../css/App.styled";
 const Home = () => {
   return (
     <div>
       <div>
-        <h1>Home</h1>
-  
+        <Description>Home</Description>
       </div>
     </div>
   );
