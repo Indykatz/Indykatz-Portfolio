@@ -1,8 +1,9 @@
+import { Description } from "../css/App.styled";
 const About = () => {
   return (
     <div>
       <div>
-        <h1>About</h1>
+        <Description>About</Description>
       </div>
     </div>
   );

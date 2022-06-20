@@ -9,8 +9,8 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavbarItems = styled.div`
-  font-size: 16px;
-  margin-right: 16px;
+  font-size: 20px;
+  margin: 20px;
   color: white;
   &:hover {
     opacity: 0.5;
