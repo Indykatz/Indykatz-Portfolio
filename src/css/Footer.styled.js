@@ -9,6 +9,7 @@ export const Footer = styled.div`
   width: 100%;
 `;
 export const FooterLinkItem = styled.div`
+  text-decoration: none;
   font-size: 16px;
   margin-right: 16px;
   color: #f49446;
