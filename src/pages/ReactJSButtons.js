@@ -1,7 +1,11 @@
 import Counter from "../components/Counter";
+import Button from "../components/Button";
+import Input from "../components/Input";
+import ButtonInput from "../components/ButtonInput";
+
 import { Description, FlexBox, EachBox } from "../css/App.styled";
 
-const CodeNation = () => {
+const ReactJSButtons = () => {
   return (
     <div>
       <div>
@@ -11,7 +15,13 @@ const CodeNation = () => {
             <Counter />
           </EachBox>
           <EachBox>
-            <Counter />
+            <Button />
+          </EachBox>
+          <EachBox>
+            <Input />
+          </EachBox>
+          <EachBox>
+            <ButtonInput />
           </EachBox>
         </FlexBox>
       </div>
@@ -19,4 +29,4 @@ const CodeNation = () => {
   );
 };
 
-export default CodeNation;
+export default ReactJSButtons;

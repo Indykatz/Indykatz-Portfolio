@@ -5,12 +5,12 @@ export const NavbarContainer = styled.div`
   justify-content: flex-end;
   align-items: center;
   background-color: #2a5a97;
-  padding: 10px;
 `;
 
 export const NavbarItems = styled.div`
   font-size: 20px;
-  margin: 20px;
+  margin: 10px;
+  margin-right: 20px;
   color: white;
   &:hover {
     opacity: 0.5;

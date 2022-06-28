@@ -11,8 +11,10 @@ const Navbar = () => {
         <Link to="/About">
           <NavbarItems>About</NavbarItems>
         </Link>
-        <Link to="/CodeNation">
-          <NavbarItems>Code Nation</NavbarItems>
+      </NavbarContainer>
+      <NavbarContainer>
+        <Link to="/ReactJSButtons">
+          <NavbarItems>Buttons</NavbarItems>
         </Link>
         <Link to="/Calculator">
           <NavbarItems>Calculator</NavbarItems>

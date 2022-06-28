@@ -5,7 +5,7 @@ import FooterBanner from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import CodeNation from "./pages/CodeNation";
+import ReactJSButtons from "./pages/ReactJSButtons";
 import Calculator from "./pages/Calculator";
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
-            <Route path="/CodeNation" element={<CodeNation />} />
+            <Route path="/ReactJSButtons" element={<ReactJSButtons />} />
             <Route path="/Calculator" element={<Calculator />} />
           </Routes>
         </Content>
