@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import { evaluate } from "mathjs";
+import { evaluate } from "mathjs";
 import { Description } from "../css/App.styled";
 import {
   DisplayNum,
@@ -31,8 +31,8 @@ const Calculator = () => {
   // function to caluclate result
   const calculate = (aButton) => {
     if (aButton === "=") {
-      // const result = evaluate(input);
-      // setInput(result);
+      const result = evaluate(input);
+      setInput(result);
     } else if (aButton === "c") {
       setInput("");
     } else setInput(input + aButton);

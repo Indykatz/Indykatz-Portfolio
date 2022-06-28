@@ -9,7 +9,7 @@ const ReactJSButtons = () => {
   return (
     <div>
       <div>
-        <Description>Code Nation ReactJS</Description>
+        <Description>ReactJS Buttons</Description>
         <FlexBox>
           <EachBox>
             <Counter />
